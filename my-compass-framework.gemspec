@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   # Gem Details
   spec.name = "my-compass-framework"
   spec.authors = ["Micah Godbolt"]
-  spec.summary = %q{A sample gem}
-  spec.description = %q{A sample gem to demo Compass frameworks}
-  spec.email = "micah@lullabot.com"
+  spec.summary = "A sample gem"
+  spec.description = "A sample gem to demo Compass frameworks"
+  spec.email = "micahgodbolt@gmail.com"
   spec.homepage = "http://www.github.com/micahgodbolt/"
   spec.license = "MIT"
   # Gem Files
@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.files += Dir.glob("templates/**/*.*")
 
   # Gem Bookkeeping
-  spec.rubygems_version = %q{1.3.6}
+  spec.rubygems_version = "1.8.24"
   spec.add_dependency("compass", [">= 0.12"])
 end
