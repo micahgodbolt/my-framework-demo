@@ -2,12 +2,15 @@
 
 @import "global/functions";
 @import "global/variables";
-@import "global/extends/**/*";
-@import "global/mixins/**/*";
+@import "global/extends/copy-extends";
+@import "global/extends/decorative-extends";
+@import "global/extends/title-extends";
+@import "global/mixins/misc-mixins";
 
-@import "base/html/**/*";
-@import "base/page/**/*";
-@import "base/vendor/**/*";
+@import "base/html/font-face";
+@import "base/html/html";
+@import "base/html/typography";
+@import "base/page/page";
+@import "base/vendor/normalize";
 
-@import "layout/**/*";
-@import "componentes/**/*";
+@import "layout/page-layout";
