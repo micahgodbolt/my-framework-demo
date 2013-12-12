@@ -4,18 +4,16 @@ discover :stylesheets
 directory 'sass/components'
 directory 'img'
 directory 'js'
-file 'config.rb'
 file 'index.html'
 
 help %Q{
-This is a message that users will see if they type
+Thanks for checking out this sass framework demonstration
 
-  compass help my_extension
-
-You can use it to help them learn how to use your extension.
+    For more bites of Sass follow us at @SassBites
 }
 
 welcome_message %Q{
-This is a message that users will see after they install this pattern.
-Use this to tell users what to do next.
+Thanks for checking out this sass framework demonstration
+
+    For more bites of Sass follow us at @SassBites
 }
