@@ -1,7 +1,8 @@
+load "../my-compass-framework"
 require "sass-globbing"
 # Require any additional compass plugins here.
 
-load "../my-framework"
+
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "stylesheets"
